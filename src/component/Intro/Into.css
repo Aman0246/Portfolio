@@ -36,10 +36,11 @@
   transform: scale(1.18);
   display: flex;
   position: relative;
-  flex: 1;
+  flex:1;
   flex-direction: column;
   left: 5rem;
   top: 3rem;
+  box-sizing: border-box;
 }
 .i-button {
   width: 9rem;
@@ -118,7 +119,7 @@ align-items: center;
   width: 19rem;
   filter: blur(32px);
   z-index: -9;
-  right: 6rem;
+  right: 11rem;
   top: -1rem;
 }
 .orange{
@@ -128,3 +129,11 @@ align-items: center;
   z-index: -9;
   right: 29rem;
   top: 15rem;}
+.blue{
+  height: 9rem;
+  width: 19rem;
+
+  z-index: -9;
+  right: 59rem;
+  top: -4rem;
+  filter: blur(128px);}
