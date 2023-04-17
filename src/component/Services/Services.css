@@ -1,0 +1,78 @@
+.services{
+   
+    display: flex;
+    margin-bottom: 13rem;
+    margin-top: 9rem;
+    height: 90vh;
+    margin-left: 10rem;
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position:relative;
+}
+.cards{
+    flex: 1;
+
+}
+.awesome>:nth-child(1){
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.awesome>:nth-child(2){
+    color: orange;
+    font-size: 3.5rem;
+    margin-top: 0.1rem;
+    
+}
+.awesome>:nth-child(3){
+    
+    margin-top: 1rem;
+    
+}
+.awesome>:nth-child(4){
+    margin-top: 6rem;
+}
+
+.blue-blure{
+   left: 29rem;
+    position: absolute;
+    width: 29rem;
+    height: 13rem;
+    background-color: #4bbaef;
+    z-index: -20;
+    filter: blur(141px);
+    top: 35rem;
+
+}
+.cards{
+    position:relative;
+    left: 8rem;
+}
+.cards>*{
+    position:absolute;
+
+}
+.glass{
+    /* position:relative; */
+    position: relative;
+    left: -61rem;
+    top: 20rem;
+}
+.glas{
+    /* position:relative; */
+    position: relative;
+    left: -38rem;
+    top: 32rem;
+}
+.blu{
+    position: absolute;
+    width: 14rem;
+    height: 5rem;
+    background-color: pink;
+    filter: blur(65px);
+    top: 70rem;
+    left: 67rem
+}

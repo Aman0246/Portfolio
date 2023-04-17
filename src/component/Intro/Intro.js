@@ -44,6 +44,7 @@ export default function Intro() {
         <Floating  image={crown}  text1="Web" text2="Page Designer"/>
        </div>
        <div className="orange"  style={{backgroundColor:"orange"}}></div>
+       <div className="blue"  style={{backgroundColor:"blue"}}></div>
        <img className="Glass " src={glassesimoji} alt="" />
        <div className="blur"  style={{backgroundColor:"pink"}}></div>
         

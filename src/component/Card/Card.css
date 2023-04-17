@@ -1,0 +1,28 @@
+.card{
+    width:16rem ;
+    height: 20rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   left:10rem;
+    align-items: center;
+    text-align: center;
+    background-color: #efefef   ;
+    border: .4rem solid orange;
+    border-radius: 2rem;
+    top: -10rem;
+}
+.c-button{
+    background-color: #ffffff;
+    box-shadow: 0px 19px 60px rgb(0,0,0,0.08);
+    border: none;
+    color: rgb(0, 200, 255);
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-size: large;
+}
+.card>:nth-child(2){
+    font-size:2rem ;
+    margin-bottom: .5rem;
+    
+}
