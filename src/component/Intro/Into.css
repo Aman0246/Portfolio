@@ -1,0 +1,130 @@
+.intro {
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+}
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  /* gap: 1rem; */
+}
+.i-name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.i-name > :nth-child(1) {
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+  color: orange;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(3) {
+  font-size: large;
+  margin-top: 10px;
+}
+.i-right {
+  transform: scale(1.18);
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  left: 5rem;
+  top: 3rem;
+}
+.i-button {
+  width: 9rem;
+  height: 3rem;
+  margin-top: 0px;
+}
+
+.i-icons {
+  margin-top: 0.6rem;
+  width: 60px;
+}
+.i-icons:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.i-all-image {
+  display: flex;
+  gap: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 5rem;
+}
+.i-right > * {
+  position: absolute;
+  /* z-index:1 */
+}
+.i-right > :nth-child(1) {
+  transform: scale(0.75);
+  left: -16%;
+  top: -19%;
+}
+.i-right > :nth-child(2) {
+  transform: scale(2);
+  top: 5.5rem;
+  left: 8rem;
+}
+.i-right > :nth-child(3) {
+  transform: scale(1);
+  left: -5rem;
+  top: -4.6rem;
+}
+.Crown {
+  display: flex;
+align-items: center;
+  background-color: aliceblue;
+  /* height: 7rem; */
+  width: 11rem;
+  justify-content: space-evenly;
+  border-radius: 5rem;
+  left: 25rem;
+}
+.Crown img {
+  height: 4rem;
+}
+.Thumbsup{
+  display: flex;
+  width: 13rem;
+  background-color: aliceblue;
+  align-items: center;
+  border-radius: 5rem;
+  justify-content: space-evenly;
+  top: 18rem;
+  left: -54px;
+}
+.Thumbsup img{
+  height: 4rem;
+}
+.Glass{
+  top: -1rem;
+  left: -2rem;
+  width: 9rem;
+
+}
+.blur{
+  height: 7rem;
+  width: 19rem;
+  filter: blur(32px);
+  z-index: -9;
+  right: 6rem;
+  top: -1rem;
+}
+.orange{
+  height: 7rem;
+  width: 19rem;
+  filter: blur(32px);
+  z-index: -9;
+  right: 29rem;
+  top: 15rem;}
