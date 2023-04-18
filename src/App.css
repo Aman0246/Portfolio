@@ -62,8 +62,8 @@ body{
 .App{
   padding: .5rem 1rem;
   box-sizing: border-box;
- 
-
+ border: 2px solid red;
+box-sizing: border-box;
   
 
 }
