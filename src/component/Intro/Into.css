@@ -33,14 +33,18 @@
   margin-top: 10px;
 }
 .i-right {
-  transform: scale(1.18);
+  transform: scale(1);
   display: flex;
   position: relative;
-  flex:1;
+  flex: 1;
   flex-direction: column;
-  left: 5rem;
-  top: 3rem;
+  margin-left: 5rem;
+  /* left: 5rem; */
+  /* top: 3rem; */
   box-sizing: border-box;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 .i-button {
   width: 9rem;
@@ -83,14 +87,15 @@
   top: -4.6rem;
 }
 .Crown {
+  top: 1rem;
   display: flex;
-align-items: center;
+  align-items: center;
   background-color: aliceblue;
-  /* height: 7rem; */
+  
   width: 11rem;
   justify-content: space-evenly;
   border-radius: 5rem;
-  left: 25rem;
+  left: 21rem;
 }
 .Crown img {
   height: 4rem;

@@ -49,7 +49,7 @@
 }
 .cards{
     position:relative;
-    left: 8rem;
+    left: 1rem;
 }
 .cards>*{
     position:absolute;
